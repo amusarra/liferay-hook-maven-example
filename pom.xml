@@ -31,7 +31,15 @@
 	<organization>
 		<name>Antonio Musarra's Blog</name>
 		<url>http://www.dontesta.it</url>
-	</organization>
+    </organization>
+    <properties>
+        <liferay.app.server.deploy.dir>/opt/liferay-portal-6.2-ce-ga5/tomcat-7.0.62/webapps</liferay.app.server.deploy.dir>
+       <liferay.app.server.lib.global.dir>/opt/liferay-portal-6.2-ce-ga5/tomcat-7.0.62/lib/ext</liferay.app.server.lib.global.dir>
+       <liferay.app.server.portal.dir>/opt/liferay-portal-6.2-ce-ga5/tomcat-7.0.62/webapps/ROOT</liferay.app.server.portal.dir>
+       <liferay.auto.deploy.dir>/opt/liferay-portal-6.2-ce-ga5/deploy</liferay.auto.deploy.dir>
+       <liferay.version>6.2.5</liferay.version>
+       <liferay.maven.plugin.version>6.2.10.16</liferay.maven.plugin.version>
+    </properties>
 	<build>
 		<plugins>
 			<plugin>
